@@ -64,10 +64,11 @@ nav {
 
 /* Styling for the logo in the navbar */
 .nav__logo {
+    text-decoration: none !important;
     font-size: 2rem;
     font-weight: 600;
-    color: #0d213f;
-    cursor: pointer;
+    color: #608B66;
+    cursor: pointer; 
 }
 
 /* Styling for a span within the logo */
@@ -97,11 +98,13 @@ nav {
     padding: 0 1rem;
     color: #0d213f;
     transition: 0.3s;
+    text-decoration: none;
 }
 
 /* Hover effect for individual links in the navigation */
 .link a:hover {
     color: #608B66;
+    text-decoration: underline;
 }
 
 /* Media queries for mobile responsiveness */
